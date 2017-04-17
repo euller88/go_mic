@@ -23,7 +23,7 @@ func main() {
 
 	defer s.Close()
 
-	s.Write([]byte("inhai"))
+	s.Write([]byte("mensagem enviada"))
 
 	b := make([]byte, 15)
 
